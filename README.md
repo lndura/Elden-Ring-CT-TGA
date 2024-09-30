@@ -1,3 +1,9 @@
+# Fork information
+I created this fork for hobbying with simple Lua, x86Asm and C scripting.
+This is not the official version of this cheat table (you should know this cause it's a fork).
+It will mostly have add-ons for the CE native environment and/or WIP for buildmaking.
+
+
 # Elden Ring Cheat Table
 
 ![Cheat Table Version](https://img.shields.io/github/v/release/The-Grand-Archives/Elden-Ring-CT-TGA?include_prereleases&label=Cheat%20Table&sort=semver&logo=github)
