@@ -1,0 +1,11 @@
+// Item sync will prolly be fixed at some point.
+[ENABLE]
+aobscanmodule(itemGive_AOB,$process,8B 02 83 F8 0A)
+define(itemGive_Call,itemGive_AOB-52)
+registerSymbol(itemGive_Call)
+itemGive_Call:
+  db C3 90
+[DISABLE]
+itemGive_Call:
+  db 40 55
+unregisterSymbol(itemGive_Call)
